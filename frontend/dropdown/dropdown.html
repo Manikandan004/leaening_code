@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body{
+                background-color: bisque;
+            }
+            ul{
+                list-style: none;
+                margin:0;
+                padding:0;
+            }
+            ul li{
+                float:left;
+                width:150px;
+                height:20px;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                line-height: 20px;
+                background-color: brown;
+                text-align: center;
+            }
+            ul li a{
+                text-decoration: none;
+                color:white;
+                background-color: brown;
+                display:block;
+            }
+            ul li a:hover{
+                background-color: aliceblue;
+                color:black;
+            }
+            ul li ul li{
+                display:none;
+            }
+            ul li:hover ul li{
+                display:block;
+            }
+
+        </style>
+    </head>
+    <body>
+        <ul>
+            <li><a href ="#">Home</a></li>
+            <li><a href="#">About</a>
+            <ul>
+                <li><a href="">My Self</a></li>
+                <li><a href="">Hobbies</a></li>
+                <li><a href="">Talents</a></li>
+            </ul>
+            </li>
+            <li><a href="#">Contact us</a>
+            <ul>
+                <li><a href="">Services</a></li>
+                <li><a href="">Contact Us</a></li>
+            </ul></li>
+        </ul>
+    </body>
+</html>
